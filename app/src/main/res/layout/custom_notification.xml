@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <!-- Tim Kiri -->
+    <ImageView
+        android:id="@+id/logo_team_left"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/real"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/team_name_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/logo_team_left"
+        android:layout_marginStart="10dp"
+        android:layout_centerVertical="true"
+        android:text="Real Madrid"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Skor -->
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="3 : 1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Tim Kanan -->
+    <ImageView
+        android:id="@+id/logo_team_right"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ac_milan"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/team_name_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/logo_team_right"
+        android:layout_marginEnd="10dp"
+        android:layout_centerVertical="true"
+        android:text="AC Milan"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>
